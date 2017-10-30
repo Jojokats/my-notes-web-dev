@@ -35,7 +35,7 @@
 	git checkout homepage
 
 ## When ready to finish my work,
-	      1st- merge changes from origin master
+	1st- merge changes from origin master
 	git pull
 
 	git merge origin/master
@@ -78,11 +78,10 @@ Created index.html and added navbar and hero section
   git branch
 
 
-**************** # GIT COURSE ****************
+# **************** GIT COURSE ****************
 
 
-  ![git states][./git-states.png]
-  ![git states][git-states.png]
+  ![git states](./git-states.png)
 
   `git init demo` (creates folder and initializes an empty Git repository)
   Initialized empty Git repository in /Users/joannakatsifaraki/src/Coding/projects/demo/.git/
@@ -116,7 +115,7 @@ nothing to commit, working tree clean
   `pico LICENSE.md`
   (creates file and opens it in pico)
 
--NOTE-
+-*** NOTE *** -
   If you run: git commit
   (it will have the core editor open with git which is VIM)
 
@@ -157,8 +156,9 @@ nothing to commit, working tree clean
   ### To revert back and discard the changes entirely run:
   git checkout -- README.md (name of file)
 
-  test it => git status
+  test it => `git status`
+
   On branch master
   nothing to commit, working tree clean
-    - open file to view and we see that all changes are gone
-    
+  **open file to view and we see that all changes are gone**
+  
