@@ -76,3 +76,89 @@ Created index.html and added navbar and hero section
   git merge origin/master
   ls -al
   git branch
+
+
+**************** # GIT COURSE ****************
+
+
+  ![git states][./git-states.png]
+  ![git states][git-states.png]
+
+  `git init demo` (creates folder and initializes an empty Git repository)
+  Initialized empty Git repository in /Users/joannakatsifaraki/src/Coding/projects/demo/.git/
+
+  or
+  `git init .`  (init in the current folder)
+
+  ls -al
+total 0
+drwxr-xr-x   3 joannakatsifaraki  staff  102 30 Oct 14:28 .
+drwxr-xr-x   3 joannakatsifaraki  staff  102 30 Oct 14:28 ..
+drwxr-xr-x  10 joannakatsifaraki  staff  340 30 Oct 14:28 .git
+
+run: pico README.md
+Modify the file by adding info. Run:
+
+  Save
+
+  `git status`
+
+  `git add README.md`
+
+  `git status`
+
+  `git commit -m "First file in demo repo"``
+
+  `git status`
+On branch master
+nothing to commit, working tree clean
+
+  `pico LICENSE.md`
+  (creates file and opens it in pico)
+
+-NOTE-
+  If you run: git commit
+  (it will have the core editor open with git which is VIM)
+
+  *** Quickly Quit VIM with Write & Save to File
+  Hit ESCAPE key, then SHIFT + ZZ
+
+  `git log`
+    git responds with all the commits that are responsible for this repository
+    - we see the commit id, author, date, and commit message
+
+  `git show`
+    shows the last commit and a diff containing all the changes
+
+  `git ls-files`
+    git tells me what files are being tracked
+
+  ## EXPRESS git command:
+
+  `git commit -am "......" `
+    -a tells Git to first add modified files to the Git staging area and then directly proceed to committing (I'm adding the modifications to the staging area and then committing those changes)
+    m for message
+
+  ## To Unstage
+
+  After a modification in a file, do a
+  git status
+
+  git add .
+
+  ## To undo the changes:
+
+  git reset HEAD README.md
+    Unstaged changes after reset:
+    M	README.md
+
+  *** If we open the file with the modifications, we see that the modification still exists, just that it has been unstaged.
+
+  ### To revert back and discard the changes entirely run:
+  git checkout -- README.md (name of file)
+
+  test it => git status
+  On branch master
+  nothing to commit, working tree clean
+    - open file to view and we see that all changes are gone
+    
