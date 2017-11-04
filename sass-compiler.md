@@ -4,6 +4,9 @@
 
 sass --watch style.scss:style.css --style expanded
 
+Travel Shelf:
+sass --watch scss/style.scss:css/style.css --style expanded
+
 * We evoke sass and tell it to watch
 * watch style.scss
 * : means,
