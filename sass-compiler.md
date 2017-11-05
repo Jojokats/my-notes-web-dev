@@ -4,7 +4,13 @@
 
 sass --watch style.scss:style.css --style expanded
 
-Travel Shelf:
+## Brad Sass:
+
+sass --watch sass:css
+(watches the sass folder and compiles to css folder)
+
+
+## Travel Shelf:
 sass --watch scss/style.scss:css/style.css --style expanded
 
 * We evoke sass and tell it to watch
