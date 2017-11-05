@@ -1,0 +1,59 @@
+/* PLUGINS */
+/* BASE STYLES */
+body {
+  font-family: Monaco, monospace;
+  font-size: yellow;
+  background: pink; }
+
+/* LAYOUTS */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px;
+  box-sizing: border-box;
+  background: white; }
+
+/* MODULES */
+.box {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 5px 10px #5b5b5b;
+  -moz-box-shadow: 0 5px 10px #5b5b5b;
+  box-shadow: 0 5px 10px #5b5b5b;
+  background: #036;
+  background: -webkit-linear-gradient(orangered, lightblue);
+  background: -o-linear-gradient(orangered, lightblue);
+  background: -moz-linear-gradient(orangered, lightblue);
+  background: linear-gradient(orangered, lightblue); }
+
+#box2 {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 5px 10px #000;
+  -moz-box-shadow: 0 5px 10px #000;
+  box-shadow: 0 5px 10px #000;
+  background: #036;
+  background: -webkit-linear-gradient(#639, #fc3);
+  background: -o-linear-gradient(#639, #fc3);
+  background: -moz-linear-gradient(#639, #fc3);
+  background: linear-gradient(#639, #fc3); }
+
+#box3 {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 10px #ddd;
+  -moz-box-shadow: 0 5px 10px #ddd;
+  box-shadow: 0 5px 10px #ddd;
+  background: #036;
+  background: -webkit-linear-gradient(black, grey);
+  background: -o-linear-gradient(black, grey);
+  background: -moz-linear-gradient(black, grey);
+  background: linear-gradient(black, grey); }
+
+/*# sourceMappingURL=app.css.map */
